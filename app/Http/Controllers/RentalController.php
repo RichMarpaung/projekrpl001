@@ -10,10 +10,11 @@ class RentalController extends Controller
 {
 
     public function list(){
-        $categorys = Category::all();
+        $categories = Category::all();
         $products = Product::all();
 
-        return view('rentalpage');
+
+        return view('rentalpage',compact('categories','products'));
 
     }
 }

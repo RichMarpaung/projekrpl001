@@ -71,10 +71,11 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="category-list clearfix">
-                                        <li><a href="shop-details.html">Accessories</a></li>
-                                        <li><a href="shop-details.html">Bags</a></li>
-                                        <li><a href="shop-details.html">Cups</a></li>
-                                        <li><a href="shop-details.html">Cloth</a></li>
+                                @foreach ($categories as $item)
+                                    <li><a href="shop-details.html">{{ $item->name }}</a></li>
+
+                                @endforeach
+
                                     </ul>
                                 </div>
                             </div>
@@ -99,11 +100,13 @@
                     <div class="col-lg-9 col-md-12 col-sm-12 content-side">
                         <div class="our-shop">
                             <div class="row clearfix">
+                                @foreach ($products as $product)
+
                                 <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
                                     <div class="shop-block-one">
                                         <div class="inner-box">
                                             <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-1.png" alt=""></figure>
+                                                <figure class="image"><img src="https://picsum.photos/id/{{ $product->image_path }}/200/300" alt=""></figure>
                                                 <ul class="option-list clearfix">
                                                     <li><button type="button"><i class="icon-18"></i></button></li>
                                                     <li><button type="button"><i class="icon-19"></i></button></li>
@@ -111,156 +114,14 @@
                                                 <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
                                             </div>
                                             <div class="lower-content">
-                                                <h3><a href="shop-details.html">Golf Cart Bag</a></h3>
-                                                <span class="price">$20:70</span>
+                                                <h3><a href="shop-details.html">{{ $product->name }}</a></h3>
+                                                <span class="price">${{ $product->price }}</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
-                                    <div class="shop-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-2.png" alt=""></figure>
-                                                <ul class="option-list clearfix">
-                                                    <li><button type="button"><i class="icon-18"></i></button></li>
-                                                    <li><button type="button"><i class="icon-19"></i></button></li>
-                                                </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
-                                            </div>
-                                            <div class="lower-content">
-                                                <h3><a href="shop-details.html">Men’s Running Shoe</a></h3>
-                                                <span class="price">$19:20</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
-                                    <div class="shop-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-3.png" alt=""></figure>
-                                                <ul class="option-list clearfix">
-                                                    <li><button type="button"><i class="icon-18"></i></button></li>
-                                                    <li><button type="button"><i class="icon-19"></i></button></li>
-                                                </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
-                                            </div>
-                                            <div class="lower-content">
-                                                <h3><a href="shop-details.html">Fusion Golf Glove</a></h3>
-                                                <span class="price">$30:00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
-                                    <div class="shop-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-4.png" alt=""></figure>
-                                                <ul class="option-list clearfix">
-                                                    <li><button type="button"><i class="icon-18"></i></button></li>
-                                                    <li><button type="button"><i class="icon-19"></i></button></li>
-                                                </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
-                                            </div>
-                                            <div class="lower-content">
-                                                <h3><a href="shop-details.html">Drive Golf Balls (White)</a></h3>
-                                                <span class="price">$21:00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
-                                    <div class="shop-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-5.png" alt=""></figure>
-                                                <ul class="option-list clearfix">
-                                                    <li><button type="button"><i class="icon-18"></i></button></li>
-                                                    <li><button type="button"><i class="icon-19"></i></button></li>
-                                                </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
-                                            </div>
-                                            <div class="lower-content">
-                                                <h3><a href="shop-details.html">Golf Cart Bag</a></h3>
-                                                <span class="price">$26:00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
-                                    <div class="shop-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-6.png" alt=""></figure>
-                                                <ul class="option-list clearfix">
-                                                    <li><button type="button"><i class="icon-18"></i></button></li>
-                                                    <li><button type="button"><i class="icon-19"></i></button></li>
-                                                </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
-                                            </div>
-                                            <div class="lower-content">
-                                                <h3><a href="shop-details.html">Men’s Running Shoe</a></h3>
-                                                <span class="price">$12:00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
-                                    <div class="shop-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-7.png" alt=""></figure>
-                                                <ul class="option-list clearfix">
-                                                    <li><button type="button"><i class="icon-18"></i></button></li>
-                                                    <li><button type="button"><i class="icon-19"></i></button></li>
-                                                </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
-                                            </div>
-                                            <div class="lower-content">
-                                                <h3><a href="shop-details.html">Fusion Golf Glove</a></h3>
-                                                <span class="price">$12:00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
-                                    <div class="shop-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-8.png" alt=""></figure>
-                                                <ul class="option-list clearfix">
-                                                    <li><button type="button"><i class="icon-18"></i></button></li>
-                                                    <li><button type="button"><i class="icon-19"></i></button></li>
-                                                </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
-                                            </div>
-                                            <div class="lower-content">
-                                                <h3><a href="shop-details.html">Men’s Running Shoe</a></h3>
-                                                <span class="price">$10:00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shop-block">
-                                    <div class="shop-block-one">
-                                        <div class="inner-box">
-                                            <div class="image-box">
-                                                <figure class="image"><img src="assets/images/shop/shop-9.png" alt=""></figure>
-                                                <ul class="option-list clearfix">
-                                                    <li><button type="button"><i class="icon-18"></i></button></li>
-                                                    <li><button type="button"><i class="icon-19"></i></button></li>
-                                                </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
-                                            </div>
-                                            <div class="lower-content">
-                                                <h3><a href="shop-details.html">Drive Golf Balls (White)</a></h3>
-                                                <span class="price">$21:00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
+
                             </div>
                         </div>
                     </div>

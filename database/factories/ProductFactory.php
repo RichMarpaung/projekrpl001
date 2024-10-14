@@ -22,7 +22,7 @@ class ProductFactory extends Factory
             'description' => $this->faker->text(),
             'price' => $this->faker->randomFloat(2, 100, 1000), // Harga antara 100 dan 1000
             'stock' => $this->faker->numberBetween(1, 100), // Stok antara 1 dan 100
-            'image_path' => null, // Gambar dapat diisi nanti
+            'image_path' => $this->faker->numberBetween(1, 1000),
             'created_at' => now(),
             'updated_at' => now(),
         ];
