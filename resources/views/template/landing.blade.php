@@ -219,24 +219,23 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/">About Us</a></li>
 
 
                                         <li>
                                             <figure class="logo-box"><a href="index-2.html"><img
                                                         src="assets/images/icon2.png" alt=""></a></figure>
                                         </li>
-                                        <li class="current dropdown"><a href="#">Shop</a>
+                                        <li class="current dropdown"><a href="#">Layanan</a>
                                             <ul>
-                                                <li><a href="shop.html">Shop Page</a></li>
-                                                <li><a href="shop-details.html">Shop Details</a></li>
-                                                <li><a href="cart.html">Cart</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="/rental">Rental Transportasi</a></li>
+                                                <li><a href="shop-details.html">Sewa Akomodasi</a></li>
+                                                <li><a href="cart.html">Makanan Khas</a></li>
+                                                <li><a href="checkout.html">Aksesoris</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="layanan.html">Layanan</a></li>
-                                        <li><a href="contact.html">News</a></li>
+                                        <li><a href="contact.html">Blog</a></li>
                                     </ul>
                                 </div>
                             </nav>
