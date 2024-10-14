@@ -93,45 +93,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="sidebar-widget review-widget">
-                                <div class="widget-title mb_20">
-                                    <h3>Reviews</h3>
-                                </div>
-                                <div class="widget-content">
-                                    <ul class="rating-list clearfix">
-                                        <li>
-                                            <div class="check-box">
-                                                <input class="check" type="checkbox" id="checkbox1">
-                                                <label for="checkbox1"><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22"></i></label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="check-box">
-                                                <input class="check" type="checkbox" id="checkbox2">
-                                                <label for="checkbox2"><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22 light"></i></label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="check-box">
-                                                <input class="check" type="checkbox" id="checkbox3">
-                                                <label for="checkbox3"><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22 light"></i><i class="icon-22 light"></i></label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="check-box">
-                                                <input class="check" type="checkbox" id="checkbox4">
-                                                <label for="checkbox4"><i class="icon-22"></i><i class="icon-22"></i><i class="icon-22 light"></i><i class="icon-22 light"></i><i class="icon-22 light"></i></label>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="check-box">
-                                                <input class="check" type="checkbox" id="checkbox5">
-                                                <label for="checkbox5"><i class="icon-22"></i><i class="icon-22 light"></i><i class="icon-22 light"></i><i class="icon-22 light"></i><i class="icon-22 light"></i></label>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-12 col-sm-12 content-side">
