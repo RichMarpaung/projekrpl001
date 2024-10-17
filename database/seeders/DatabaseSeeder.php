@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\ProductImage;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -22,6 +23,7 @@ class DatabaseSeeder extends Seeder
         ProductSeeder::class,
         PaymentSeeder::class,
         ReservationSeeder::class,
+        ProductImageSeeder::class,
         ]);
     }
 }

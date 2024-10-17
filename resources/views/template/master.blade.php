@@ -18,78 +18,48 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&amp;display=swap" rel="stylesheet">
-
     <!-- Stylesheets -->
-    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
-    <link href="assets/css/flaticon.css" rel="stylesheet">
-    <link href="assets/css/owl.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-    <link href="assets/css/odometer.css" rel="stylesheet">
-    <link href="assets/css/elpath.css" rel="stylesheet">
-    <link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
-    <link href="assets/css/rtl.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/module-css/header.css" rel="stylesheet">
-    <link href="assets/css/module-css/banner.css" rel="stylesheet">
-    <link href="assets/css/module-css/service.css" rel="stylesheet">
-    <link href="assets/css/module-css/about.css" rel="stylesheet">
-    <link href="assets/css/module-css/history.css" rel="stylesheet">
-    <link href="assets/css/module-css/funfact.css" rel="stylesheet">
-    <link href="assets/css/module-css/course.css" rel="stylesheet">
-    <link href="assets/css/module-css/portfolio.css" rel="stylesheet">
-    <link href="assets/css/module-css/testimonial.css" rel="stylesheet">
-    <link href="assets/css/module-css/pricing.css" rel="stylesheet">
-    <link href="assets/css/module-css/video.css" rel="stylesheet">
-    <link href="assets/css/module-css/news.css" rel="stylesheet">
-    <link href="assets/css/module-css/cta.css" rel="stylesheet">
-    <link href="assets/css/module-css/footer.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
-    <link href="assets/css/flaticon.css" rel="stylesheet">
-    <link href="assets/css/owl.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-    <link href="assets/css/odometer.css" rel="stylesheet">
-    <link href="assets/css/elpath.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui.css" rel="stylesheet">
-    <link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
-    <link href="assets/css/rtl.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/module-css/header.css" rel="stylesheet">
-    <link href="assets/css/module-css/page-title.css" rel="stylesheet">
-    <link href="assets/css/module-css/contact.css" rel="stylesheet">
-    <link href="assets/css/module-css/cta.css" rel="stylesheet">
-    <link href="assets/css/module-css/footer.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-    <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&amp;display=swap" rel="stylesheet">
+    <link href="{{ asset('assets/css/font-awesome-all.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/flaticon.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/owl.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/jquery.fancybox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/nice-select.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/odometer.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/elpath.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/jquery-ui.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/color.css') }}" id="jssDefault" rel="stylesheet">
+    <link href="{{ asset('assets/css/rtl.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/header.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/page-title.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/shop-details.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/shop.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/cta.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/footer.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 
-<!-- Stylesheets -->
-<link href="assets/css/font-awesome-all.css" rel="stylesheet">
-<link href="assets/css/flaticon.css" rel="stylesheet">
-<link href="assets/css/owl.css" rel="stylesheet">
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-<link href="assets/css/animate.css" rel="stylesheet">
-<link href="assets/css/nice-select.css" rel="stylesheet">
-<link href="assets/css/odometer.css" rel="stylesheet">
-<link href="assets/css/elpath.css" rel="stylesheet">
-<link href="assets/css/jquery-ui.css" rel="stylesheet">
-<link href="assets/css/color.css" id="jssDefault" rel="stylesheet">
-<link href="assets/css/rtl.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-<link href="assets/css/module-css/header.css" rel="stylesheet">
-<link href="assets/css/module-css/page-title.css" rel="stylesheet">
-<link href="assets/css/module-css/shop.css" rel="stylesheet">
-<link href="assets/css/module-css/cta.css" rel="stylesheet">
-<link href="assets/css/module-css/footer.css" rel="stylesheet">
-<link href="assets/css/responsive.css" rel="stylesheet">
+    <!-- Additional Modules -->
+    <link href="{{ asset('assets/css/module-css/banner.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/service.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/about.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/history.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/funfact.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/course.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/portfolio.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/testimonial.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/pricing.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/video.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/news.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/contact.css') }}" rel="stylesheet">
+
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&amp;display=swap" rel="stylesheet">
 
 
 </head>
@@ -137,18 +107,18 @@
 
 
         <!-- page-direction -->
-        <div class="page_direction">
+        {{-- <div class="page_direction">
             <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
             <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
-        </div>
+        </div> --}}
         <!-- page-direction end -->
 
 
-        <div class="chat-icon"><button type="button" class="chat-toggler"><i class="icon-26"></i></button></div>
+        {{-- <div class="chat-icon"><button type="button" class="chat-toggler"><i class="icon-26"></i></button></div> --}}
 
 
         <!--chat popup-->
-        <div id="chat-popup" class="chat-popup">
+        {{-- <div id="chat-popup" class="chat-popup">
             <div class="popup-inner">
                 <div class="close-chat"><i class="icon-24"></i></div>
                 <div class="chat-form">
@@ -169,11 +139,11 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
         <!--Search Popup-->
-        <div id="search-popup" class="search-popup">
+        {{-- <div id="search-popup" class="search-popup">
             <div class="popup-inner">
                 <div class="upper-box">
                     <figure class="logo-box"><a href="index-2.html"><img src="assets/images/logo-3.png"
@@ -195,7 +165,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
         <!-- main header -->
@@ -206,8 +176,11 @@
                 <div class="outer-container p_relative">
                     <div class="outer-box">
                         <div class="menu-right-content">
-                            <div class="support-box"><a href="tel:083199554399"><i class="icon-5"></i> (+62)
-                                    831-9955-4399</a></div>
+
+                            <div class="support-box">
+                                <figure class="logo-box"><a href="index-2.html">
+                                    <img src="{{ asset('assets/images/icon2.png') }}" alt=""></a></figure>
+                            </div>
                         </div>
                         <div class="menu-area">
                             <!--Mobile Navigation Toggler-->
@@ -220,14 +193,11 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
                                         <li><a href="/">Home</a></li>
-                                        <li><a href="/">About Us</a></li>
+                                        <li><a href="#about">About Us</a></li>
 
 
-                                        <li>
-                                            <figure class="logo-box"><a href="index-2.html"><img
-                                                        src="assets/images/icon2.png" alt=""></a></figure>
-                                        </li>
-                                        <li class="current dropdown"><a href="#">Layanan</a>
+
+                                        <li class="current dropdown"><a href="#layanan">Layanan</a>
                                             <ul>
                                                 <li><a href="/rental">Rental Transportasi</a></li>
                                                 <li><a href="shop-details.html">Sewa Akomodasi</a></li>
@@ -241,7 +211,7 @@
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Contact</a></div>
+                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Login</a></div>
                         </div>
                     </div>
                 </div>
@@ -252,8 +222,8 @@
                 <div class="outer-container p_relative">
                     <div class="outer-box">
                         <div class="menu-right-content">
-                            <div class="support-box mr_30"><a href="tel:083199554399"><i class="icon-5"></i> (+62)
-                                    831-9955-4399</a></div>
+                            <div class="support-box mr_30"><img
+                                src="{{ asset('assets/images/icon2.png') }}" alt=""></div>
                         </div>
                         <div class="menu-area">
                             <nav class="main-menu clearfix">
@@ -261,7 +231,7 @@
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Contact</a></div>
+                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Login</a></div>
                         </div>
                     </div>
                 </div>
@@ -369,40 +339,26 @@
 
     </div>
 
+    <!-- jQuery Plugins -->
+    <script src="{{ asset('assets/js/jquery.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.js') }}"></script>
+    <script src="{{ asset('assets/js/validation.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.fancybox.js') }}"></script>
+    <script src="{{ asset('assets/js/appear.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.js') }}"></script>
+    <script src="{{ asset('assets/js/parallax-scroll.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('assets/js/scrolltop.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-ui.js') }}"></script>
+    <script src="{{ asset('assets/js/odometer.js') }}"></script>
+    <script src="{{ asset('assets/js/bxslider.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.bootstrap-touchspin.js') }}"></script>
 
-    <!-- jequery plugins -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/validation.js"></script>
-    <script src="assets/js/jquery.fancybox.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/scrolltop.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/odometer.js"></script>
+    <!-- Main JS -->
+    <script src="{{ asset('assets/js/script.js') }}"></script>
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/validation.js"></script>
-    <script src="assets/js/jquery.fancybox.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/scrolltop.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/odometer.js"></script>
-
-    <script src="assets/js/bxslider.js"></script>
-    <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
-    <!-- main-js -->
-    <script src="assets/js/script.js"></script>
 
 </body><!-- End of .page_wrapper -->
 

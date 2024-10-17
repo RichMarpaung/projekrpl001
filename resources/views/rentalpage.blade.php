@@ -1,4 +1,4 @@
-@extends('template.landing')
+@extends('template.master')
 @section('body')
 
         <!-- Mobile Menu  -->
@@ -11,8 +11,8 @@
                 <div class="contact-info">
                     <h4>Contact Info</h4>
                     <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li>Sulawesi Barat , Indonesia</li>
+                        <li><a href="tel:+6283199554399">+62 83199554399</a></li>
                         <li><a href="mailto:info@example.com">info@example.com</a></li>
                     </ul>
                 </div>
@@ -111,10 +111,10 @@
                                                     <li><button type="button"><i class="icon-18"></i></button></li>
                                                     <li><button type="button"><i class="icon-19"></i></button></li>
                                                 </ul>
-                                                <div class="cart-btn"><button type="button" class="theme-btn btn-one">Add to cart</button></div>
+                                                <div class="cart-btn"> <a href="{{ route('product.show', $product->id) }}"> <button type="button" class="theme-btn btn-one">Detail</button></a></div>
                                             </div>
                                             <div class="lower-content">
-                                                <h3><a href="shop-details.html">{{ $product->name }}</a></h3>
+                                                <h3><a href="{{ route('product.show', $product->id) }}">{{ $product->name }}</a></h3>
                                                 <span class="price">${{ $product->price }}</span>
                                             </div>
                                         </div>

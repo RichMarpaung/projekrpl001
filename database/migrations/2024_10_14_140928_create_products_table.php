@@ -16,9 +16,11 @@ return new class extends Migration
             $table->foreignId('category_id')->constrained('categories')->onDelete('cascade');
             $table->string('name');
             $table->text('description');
+            $table->string('fuel');
+            $table->enum('transmission',['Manual','Automatic']);
+            $table->integer('seats');
             $table->decimal('price', 10, 2);
             $table->integer('stock');
-            $table->string('image_path')->nullable();
             $table->timestamps();
         });
     }
