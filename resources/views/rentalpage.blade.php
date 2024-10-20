@@ -115,7 +115,7 @@
                                             </div>
                                             <div class="lower-content">
                                                 <h3><a href="{{ route('product.show', $product->id) }}">{{ $product->name }}</a></h3>
-                                                <span class="price">${{ $product->price }}</span>
+                                                <span class="price">${{ $product->price }} / day</span>
                                             </div>
                                         </div>
                                     </div>

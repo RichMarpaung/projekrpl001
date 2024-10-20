@@ -82,7 +82,7 @@
                                         <div class="lower-content">
                                             <h3><a href="index-2.html">Akomodasi</a></h3>
                                             <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-                                            <div class="link"><a href="index-2.html"><i class="icon-7"></i></a></div>
+                                            <div class="link"><a href="#"><i class="icon-7"></i></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -95,9 +95,9 @@
                                             <figure class="image"><img src="assets/images/service/service-2.jpg" alt=""></figure>
                                         </div>
                                         <div class="lower-content">
-                                            <h3><a href="index-2.html">Kuliner</a></h3>
+                                            <h3><a href="#">Kuliner</a></h3>
                                             <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-                                            <div class="link"><a href="index-2.html"><i class="icon-7"></i></a></div>
+                                            <div class="link"><a href="#"><i class="icon-7"></i></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -110,9 +110,9 @@
                                             <figure class="image"><img src="assets/images/service/service-3.jpg" alt=""></figure>
                                         </div>
                                         <div class="lower-content">
-                                            <h3><a href="index-2.html">Transportasi</a></h3>
+                                            <h3><a href="{{ route('product.list') }}">Transportasi</a></h3>
                                             <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-                                            <div class="link"><a href="index-2.html"><i class="icon-7"></i></a></div>
+                                            <div class="link"><a href="{{ route('product.list') }}"><i class="icon-7"></i></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -125,9 +125,9 @@
                                             <figure class="image"><img src="assets/images/service/service-4.jpg" alt=""></figure>
                                         </div>
                                         <div class="lower-content">
-                                            <h3><a href="index-2.html">Souvenir</a></h3>
+                                            <h3><a href="#">Souvenir</a></h3>
                                             <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-                                            <div class="link"><a href="index-2.html"><i class="icon-7"></i></a></div>
+                                            <div class="link"><a href="#"><i class="icon-7"></i></a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -140,9 +140,9 @@
                                             <figure class="image"><img src="assets/images/service/service-3.jpg" alt=""></figure>
                                         </div>
                                         <div class="lower-content">
-                                            <h3><a href="index-2.html">Hiburan</a></h3>
+                                            <h3><a href="#">Hiburan</a></h3>
                                             <p>Lorem ipsum dolor sit amet consectetur elit.</p>
-                                            <div class="link"><a href="index-2.html"><i class="icon-7"></i></a></div>
+                                            <div class="link"><a href="#"><i class="icon-7"></i></a></div>
                                         </div>
                                     </div>
                                 </div>

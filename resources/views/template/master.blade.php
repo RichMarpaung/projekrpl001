@@ -11,7 +11,7 @@
     <title>Projek RPL</title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="assets/images/icon1.png" type="image/x-icon">
+    <link rel="icon" href=" {{ asset('assets/images/icon1.png') }}" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link
