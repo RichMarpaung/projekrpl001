@@ -37,6 +37,7 @@
     <link href="{{ asset('assets/css/module-css/shop-details.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/shop.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/cta.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/module-css/checkout.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/module-css/footer.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 

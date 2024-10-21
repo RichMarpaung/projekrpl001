@@ -117,6 +117,11 @@
                                     {{ $product->description }}
                                 </p>
                             </div>
+                            <form action="{{ route('order.confirmation') }}" method="POST">
+                                @csrf
+                                <input type="hidden" name="user_id" value="1"> <!-- User ID -->
+                                <input type="hidden" name="product_id" value="{{ $product->id }}"> <!-- Product ID -->
+
                             <ul class="addto-cart-box mb_40">
                                 <li class="item-date">
                                     <label for="start_date">Start Date:</label>
@@ -130,7 +135,7 @@
 
                             </ul><ul class="addto-cart-box mb_40">
                                 <li class="cart-btn mb_40">
-                                    <button type="button" class="theme-btn btn-one">Book Now</button>
+                                    <button type="submit" class="theme-btn btn-one">Book Now</button>
                                 </li>
 
 
@@ -144,6 +149,7 @@
                                 <li><strong>Availability :</strong><span class="product-stock"><img
                                             src="assets/images/icons/icon-5.png" alt=""> {{ $product->stock }}</span></li>
                             </ul>
+                        </form>
                         </div>
                     </div>
                 </div>
