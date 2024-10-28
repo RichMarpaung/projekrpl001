@@ -200,8 +200,8 @@
 
                                         <li class="current dropdown"><a href="#layanan">Layanan</a>
                                             <ul>
-                                                <li><a href="/rental">Rental Transportasi</a></li>
-                                                <li><a href="shop-details.html">Sewa Akomodasi</a></li>
+                                                <li><a href="/rental">Transportasi</a></li>
+                                                <li><a href="shop-details.html">Akomodasi</a></li>
                                                 <li><a href="cart.html">Makanan Khas</a></li>
                                                 <li><a href="checkout.html">Aksesoris</a></li>
                                             </ul>
@@ -212,7 +212,11 @@
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Login</a></div>
+                            <form action="{{ route('logout') }}" method="POST" style="display: inline;" onsubmit="return confirm('Are you sure you want to logout?');">
+                                @csrf
+                                <button type="submit" class="btn btn-danger">Logout</button>
+                            </form>
+                            {{-- <div class="btn-box"><a href="" class="theme-btn btn-one">Login</a></div> --}}
                         </div>
                     </div>
                 </div>
