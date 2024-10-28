@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Payment;
+use App\Models\Product;
+use App\Models\Reservation;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
@@ -11,7 +15,24 @@ class AdminController extends Controller
      */
     public function dashboard()
     {
-        return view('admin/dashboard');
+        $user = User::count();
+        $product = Product::count();
+        $reservation = Reservation::count();
+        return view('admin/dashboard',[
+            'user' => $user,
+            'product' => $product,
+            'reservation' => $reservation
+        ]);
+    }
+    public function productcreate()
+    {
+
+        return view('Admin.addproduct');
+    }
+    public function productlist()
+    {
+        $products = Product::all();
+        return view('Admin.productlist',compact('products'));
     }
     public function index()
     {

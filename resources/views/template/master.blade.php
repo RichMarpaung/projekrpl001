@@ -212,7 +212,7 @@
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <form action="{{ route('logout') }}" method="POST" style="display: inline;" onsubmit="return confirm('Are you sure you want to logout?');">
+                            <form action="{{ route('logout') }}" method="GET" style="display: inline;" onsubmit="return confirm('Are you sure you want to logout?');">
                                 @csrf
                                 <button type="submit" class="btn btn-danger">Logout</button>
                             </form>
