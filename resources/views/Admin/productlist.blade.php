@@ -17,6 +17,7 @@
                         <table class="table datatable" id="datatable_1">
                             <thead class="table-light">
                               <tr>
+                                <th>Image</th>
                                 <th>Name</th>
                                 <th>Category</th>
                                 <th>Fuel</th>
@@ -31,6 +32,13 @@
                             <tbody>
                                 @foreach ($products as $item)
                                 <tr>
+                                 <td>@if ($item->image)
+                                    <img src="{{ asset('storage/'.$item->image) }}" alt="Tidak Ada " style="max-width: 100px; max-height: 100px;">
+
+                                @else
+                                <h3>Tidak Ada Sampul</h3>
+                                @endif</td>
+                                </td>
                                     <td>{{ $item->name }}</td>
                                     <td>{{ $item->category->name }}</td>
                                     <td>{{ $item->fuel }}</td>

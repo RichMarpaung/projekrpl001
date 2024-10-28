@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
+use App\Models\Category;
 use App\Models\Payment;
 use App\Models\Product;
 use App\Models\Reservation;
@@ -26,8 +28,8 @@ class AdminController extends Controller
     }
     public function productcreate()
     {
-
-        return view('Admin.addproduct');
+        $categories = Category::all();
+        return view('Admin.addproduct',compact('categories'));
     }
     public function productlist()
     {

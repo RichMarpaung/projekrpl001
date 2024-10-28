@@ -7,6 +7,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\RentalController;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\MustAdmin;
+use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
 
@@ -40,4 +41,5 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard')->middleware(['auth',Mustadmin::class]);
     Route::get('/rental',[AdminController::class, 'productlist'])->name('product.list');
     Route::get('/create-rental',[AdminController::class, 'productcreate'])->name('product.create');
+    Route::post('/create-rental',[ProductController::class, 'store'])->name('product.store');
 })->middleware(['auth',Mustadmin::class]);
